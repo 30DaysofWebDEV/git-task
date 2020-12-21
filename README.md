@@ -1,2 +1,2 @@
 # git-task
-name=Hrishabh Mukherjee
+Hrishabh Mukherjee
