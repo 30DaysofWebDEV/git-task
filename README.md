@@ -1,2 +1,2 @@
 # git-task
-My name is Amit Kumar.
+My name is Amit Kumar
