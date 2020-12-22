@@ -1,8 +1,14 @@
-# Hi Team, This Is Vineela
+# Hi Team, This is Vineela
 
 I am a B-tech graduate from Computer Science and Engineering
 
 ## Working
-System Analyst in IBM
+System Analyst
+
+## Sample Projects
+Food website
+
+
+
 
 
