@@ -1,1 +1,2 @@
-# git-task
+# git-t
+I am Vifieh Ruth a software developer
