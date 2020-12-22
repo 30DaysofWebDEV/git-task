@@ -1,2 +1,2 @@
 # git-task
-Ayush Gupta
+Ayush Gupta, Freshman at NIT, Raipur
