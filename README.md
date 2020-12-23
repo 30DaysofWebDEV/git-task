@@ -1,3 +1,3 @@
 # git-task
 Vasu Soni
-:P
+Fav emoji :P
