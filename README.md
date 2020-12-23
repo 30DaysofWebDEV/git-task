@@ -7,4 +7,4 @@
 - I love to solve coding challenges.  
 - Also love to take part in *Coding events* and *Hackathons*.  
 
-I want to say a big thank you to all the various DSC leads for this opportunity and all their efforts.
+I want to say a big thank you to all the various DSC leads for this opportunity and all of their efforts.
