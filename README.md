@@ -1,1 +1,2 @@
 # git-task
+I am Mengnemo Johan Wirdzeyii, an Electrical and Electronics Engineering student in the Faculty of Engineering and Technology (FET) in the University of Buea, South West Region, Cameroon. I'm currently a wordpress web developer, and I want to expand my knowledge by learning the coding.
