@@ -1,3 +1,3 @@
 # git-task
 
-My name is Anwesha Deb
+Myself Anwesha Deb,persuing B.Tech in IT  from KIIT
