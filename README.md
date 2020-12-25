@@ -1,2 +1,2 @@
 # git-task
-# This is Devraj.THe task is completed.
+# This is Devraj.The task is completed.
