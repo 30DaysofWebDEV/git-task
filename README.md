@@ -1,2 +1,0 @@
-# git-task
-Minal Jain
