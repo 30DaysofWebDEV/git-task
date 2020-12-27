@@ -1,1 +1,2 @@
 # git-task
+# My name is **Sibteali Baqar** . I am from Karachi, Pakistan, pursuing Bachelor in Computer Engineering from Nust, Islamabad. I am a graphic designer by hobby and programmer by passion. I love to *make things work* while they do not. That is all from my side
