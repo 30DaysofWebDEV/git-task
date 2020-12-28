@@ -1,3 +1,3 @@
 # git-task
 
-Name : Lincy ;)
+Name : Lincy!
