@@ -2,5 +2,5 @@
 
 ## Someting About MySelf
 
-My Name is Ansul Narayandas. Agrawal
+My Name is Ansul Narayandas Agrawal.
 Studing In Reva University.
