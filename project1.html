@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project1_Cprakash</title>
+    </head>
+    <body>
+        <header align = center>
+            <b><u>HTML project</u></b>
+        </header><br>
+
+
+        <form action="thanks.html">
+            <fieldset>
+                <legend align = center><h3><u>Contact Info!</u></h3></legend>
+
+            <label for = "f_name">First Name:</label><br>
+            <input type="text" name="f_name" id="f_name" required><br><br>
+            
+            <label for = "l_name">Last Name:</label><br>
+            <input type="text" name = "l_name" id = "l_name"><br><br>
+
+            Gender:<br>
+            <select name = "dropdown">
+                <option value="male" selected>Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select><br><br>
+
+            <label for = "birthday">Date of Birth:</label><br>
+            <input type="date" name="birthday" id="birthday" required><br><br>
+            
+            <label for = "phone">Phone:</label><br>
+            <input type="tel"  id = "phone" name = "phone" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}" 
+               maxlength="12" placeholder="123-4567-890" required><br><br>
+
+            <label for = "email">E-mail:</label><br>
+            <input type="email" id = "email" name = "email" required><br><br>
+
+            Comments:<br>
+            <textarea rows="5" cols="50" name = "description">
+                Enter comments here...
+            </textarea><br><br>
+
+            <input type = "submit" value="Submit">
+
+            <input type = "reset" value="Reset">
+            </fieldset>
+        </form><br><br>
+
+
+        <table align = "center" border="4" cellpadding = "10" cellspacing = "5" bgcolor = "#78ded4">
+            <caption align="center"><b>Educational Qualification</b></caption>
+            <tr bgcolor = "pink">
+                <th>Course</th>
+                <th>Name of Institution</th>
+                <th>Grade</th>
+            </tr>
+            <tr bgcolor = "pink">
+                <td>10th</td>
+                <td>Arora International School</td>
+                <td>10 cgpa</td>
+            </tr>
+            <tr bgcolor = "pink">
+                <td>12th</td>
+                <td>Shivam International School</td>
+                <td>77%</td>
+            </tr>
+            <tr bgcolor = "pink">
+                <td>BTech</td>
+                <td>Kalinga Institute of Industrial Technology</td>
+                <td>9.5 cgpa</td>
+            </tr>
+        </table><br><br>
+
+        <p align = center><iframe width="640" height="360" src="https://www.youtube.com/embed/LXb3EKWsInQ" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe></p><br><br>
+
+        
+        <footer align = center>
+            <p>Author: Chandra Prakash</p>
+            <p>Contact at: <a href="mailto:chandra8226@gmail.com">chandra8226@gmail.com</a></a></p>
+            <p>Social handles: <a href="https://www.facebook.com/">
+                    <img src="https://cdn.pixabay.com/photo/2017/06/22/06/22/facebook-2429746__480.png" alt= "facebook image" height="32" width="32"></a>
+                
+                <a href="https://www.linkedin.com/feed/">
+                    <img src = "https://cdn.pixabay.com/photo/2015/07/13/07/33/icons-842861__480.png" alt = "linkedin image" height="32" width="32">
+                </a>
+
+                <a href="https://www.instagram.com/">
+                    <img src="https://cdn.pixabay.com/photo/2016/08/01/21/00/icon-1562136__480.png" alt="instagram image" height="32" width="32"></a></p>
+        </footer>
+    </body>
+</html>
