@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8"/>
+        <title>Barebones Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body style="background-color: #95C8D8";>
+  
+<div class="jumbotron text-center">
+  <h1>Bootstrap Project</h1>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3 style="color:Blue;">About me</h3>
+      <p>My name is Laxmi Panch</p>
+      <p>Pursuing computer engineering from AISSMS COE Pune</p>
+    </div>
+    <div class="col-sm-4">
+      <h3 style="color:Blue;" >About AISSMS COE</h3>
+      <p>AISSMS College of Engineering is a private engineering college located in Pune, Maharashtra, India. </p>
+      <p>The college is affiliated with the University of Pune and was founded by Chhatrapati Shri Shahu Maharaj of Kolhapur, leading to the college's establishment in 1992.</p>
+    </div>
+    <div class="col-sm-4">
+      <h3 style="color:Blue;">About Bootstrap</h3>        
+      <p>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.</p>
+      <p> It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.</p>
+    </div>
+  </div>
+</div>
+<h4>HTML Forms</h4>
+
+        <form action="/action_page.php">
+        <label for="email">Your Email:</label></br>
+        <input type="text" id="email" name="email"><br>
+        <label for="contact">Your contact no:</label></br>
+        <input type="text" id="contact" name="contact"><br>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <button type="button" class="btn btn-success">Submit</button>
+        </form> 
+
+    </body>
+</html>
