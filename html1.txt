@@ -1,0 +1,10 @@
+<html>
+<head>
+<title>BAREBONES PORTFOLIO</title>
+</head>
+<body>
+<header>
+<h4>this is header.</h4>
+</header>
+</body>
+</html>

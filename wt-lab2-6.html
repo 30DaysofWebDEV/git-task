@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colspan ans rowspan</title>
+    <style>
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+        th, td {
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <table style="width:30%">
+        <tr>
+            <td align="center"colspan="3">A</td>
+        </tr>
+        <tr>
+            <td align="center"rowspan="2">B</td>
+            <td align="center"colspan="2">C</td>
+        </tr>
+        <tr>
+            <td align="center">D</td>
+            <td align="center">E</td>
+        </tr>
+    </table>
+</body>
+</html>
