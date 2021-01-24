@@ -2,54 +2,98 @@
 <html>
     <head>
         <title>Project1_Cprakash</title>
+        <link rel="stylesheet" type="text/css" href="project2.css"/>
     </head>
     <body>
         <header align = center>
             <b><u>HTML project</u></b>
-        </header><br>
+        </header><br><br>
 
+        
 
+        <div class="container">
         <form action="thanks.html">
-            <fieldset>
-                <legend align = center><h3><u>Contact Info!</u></h3></legend>
 
-            <label for = "f_name">First Name:</label><br>
-            <input type="text" name="f_name" id="f_name" required><br><br>
+            <div class="row">
+                <div class="col-25">
+                    <label for = "f_name">First Name:</label><br>
+                </div>
+                <div class="col-75">
+                    <input type="text" name="f_name" id="f_name" required><br><br>
+                </div>
+            </div>
             
-            <label for = "l_name">Last Name:</label><br>
-            <input type="text" name = "l_name" id = "l_name"><br><br>
+            <div class="row">
+                <div class="col-25">
+                    <label for = "l_name">Last Name:</label><br>
+                </div>
+                <div class="col-75">
+                    <input type="text" name = "l_name" id = "l_name"><br><br>
+                </div>
+            </div>
 
-            Gender:<br>
-            <select name = "dropdown">
-                <option value="male" selected>Male</option>
-                <option value="female">Female</option>
-                <option value="other">Other</option>
-            </select><br><br>
+            <div class="row">
+                <div class="col-25">
+                    <label for="gender">Gender:</label><br>
+                </div>
+                <div class="col-75">
+                    <select name = "dropdown">
+                        <option value="male" selected>Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select><br><br>
+                </div>
+            </div>
 
-            <label for = "birthday">Date of Birth:</label><br>
-            <input type="date" name="birthday" id="birthday" required><br><br>
+            <div class="row">
+                <div class="col-25">
+                    <label for = "birthday">Date of Birth:</label><br>
+                </div>
+                <div class="col-75">
+                    <input type="date" name="birthday" id="birthday" required><br><br>
+                </div>
+            </div>
             
-            <label for = "phone">Phone:</label><br>
-            <input type="tel"  id = "phone" name = "phone" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}" 
-               maxlength="12" placeholder="123-4567-890" required><br><br>
+            <div class="row">
+                <div class="col-25">
+                    <label for = "phone">Phone:</label><br>
+                </div>
+                <div class="col-75">
+                    <input type="tel"  id = "phone" name = "phone" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}" 
+                    maxlength="12" placeholder="123-4567-890" required><br><br>
+                </div>
+            </div>
 
-            <label for = "email">E-mail:</label><br>
-            <input type="email" id = "email" name = "email" required><br><br>
+            <div class="row">
+                <div class="col-25">
+                    <label for = "email">E-mail:</label><br>
+                </div>
+                <div class="col-75">
+                    <input type="email" id = "email" name = "email" required><br><br>
+                </div>
+            </div>
 
-            Comments:<br>
-            <textarea rows="5" cols="50" name = "description">
-                Enter comments here...
-            </textarea><br><br>
+            <div class="row">
+                <div class="col-25">
+                    <label for="comment">Comment:</label><br>
+                </div>
+                <div class="col-75">
+                    <textarea rows="5" cols="50" name = "description">
+                    Enter comments here...
+                    </textarea><br><br>
+                </div>
+            </div>
 
             <input type = "submit" value="Submit">
 
             <input type = "reset" value="Reset">
-            </fieldset>
         </form><br><br>
+        </div>
 
 
-        <table align = "center" border="4" cellpadding = "10" cellspacing = "5" bgcolor = "#78ded4">
-            <caption align="center"><b>Educational Qualification</b></caption>
+        <div class="edutable">
+        <table align = "center" border="4" cellpadding = "10" cellspacing = "5" bgcolor = "#78ded4" width= 600>
+            <caption align="center"><h3><u>Educational Qualification</u></h3></caption>
             <tr bgcolor = "pink">
                 <th>Course</th>
                 <th>Name of Institution</th>
@@ -71,11 +115,14 @@
                 <td>9.5 cgpa</td>
             </tr>
         </table><br><br>
+        </div>
 
+        <div class="video">
         <p align = center><iframe width="640" height="360" src="https://www.youtube.com/embed/LXb3EKWsInQ" 
             frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
             allowfullscreen>
         </iframe></p><br><br>
+        </div>
 
         
         <footer align = center>
