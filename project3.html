@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>Project3_Cprakash</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+      
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="#form">Form</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#table">Education</a>
+        </li>
+        <li class="nav-items">
+          <a class="nav-link" href="#contact">Contact Me</a>
+        </li>
+      </ul>
+    </div>
+    </nav><br><br>
+
+    <div class="container-fluid bg-dark text-white p-3" id="about">
+      <h1>Hi! There</h1>
+      <h3>I'm Chandra Prakash</h3>
+      <h2>Web Developer</h2>
+  </div><br><br>
+
+    <div class="container bg-secondary text-white" id="form">
+        <h3 align = center><u>Contact Form</u></h3>
+      <form action="thanks.html">
+
+          <div class="form-group">
+                  <label for = "f_name">First Name:</label><br>
+                  <input type="text" class="form-control" id="f_name"><br>
+          </div>
+          
+          <div class="form-group">
+                  <label for = "l_name">Last Name:</label><br>
+                  <input type="text" class="form-control" id = "l_name"><br>
+          </div>
+
+          <div class="form-group">
+                  <label for="gender">Gender:</label><br>
+                  <select  class="dropdown">
+                      <option value="male" selected>Male</option>
+                      <option value="female">Female</option>
+                      <option value="other">Other</option>
+                  </select><br><br>
+          </div>
+
+          <div class="form-group">
+                  <label for = "birthday">Date of Birth:</label><br>
+                  <input type="date" name="birthday" id="birthday" required><br><br>
+          </div>
+          
+          <div class="form-group">
+                  <label for = "phone">Phone:</label><br>
+                  <input type="tel"  id = "phone" class="form-control" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}" 
+                  maxlength="12" placeholder="123-4567-890" required><br>
+          </div>
+
+          <div class="form-group">
+                  <label for = "email">E-mail:</label><br>
+                  <input type="email" id = "email"  class="form-control" required><br>
+          </div>
+
+          <div class="form-group">
+                  <label for="comment">Comment:</label><br>
+                  <textarea form-groups="5" cols="50" class="form-control">
+                  Enter comments here...
+                  </textarea><br>
+          </div>
+
+          <input type = "submit" value="Submit">
+
+          <input type = "reset" value="Reset">
+      </form><br><br>
+      </div>
+
+    <div class="container2 center" id="table">
+      <h3 align = center><u>Educational Qualification</u></h3>
+    <table class="table table-dark table-striped">
+  
+          <tr>
+              <th>Course</th>
+              <th>Name of Institution</th>
+              <th>Grade</th>
+          </tr>
+          <tr>
+              <td>10th</td>
+              <td>Arora International School</td>
+              <td>10 cgpa</td>
+          </tr>
+          <tr>
+              <td>12th</td>
+              <td>Shivam International School</td>
+              <td>77%</td>
+          </tr>
+          <tr>
+              <td>BTech</td>
+              <td>Kalinga Institute of Industrial Technology</td>
+              <td>9.5 cgpa</td>
+          </tr>
+          </table>
+      <br><br>
+      </div>
+
+      <div class="container justify-content-center bg-light" id="contact">
+      <footer align = center>
+        <p>Author: Chandra Prakash</p>
+        <p>Contact at: <a href="mailto:chandra8226@gmail.com">chandra8226@gmail.com</a></a></p>
+        <p>Social handles: <a href="https://www.facebook.com/">
+                <img src="https://cdn.pixabay.com/photo/2017/06/22/06/22/facebook-2429746__480.png" alt= "facebook image" height="32" width="32"></a>
+            
+            <a href="https://www.linkedin.com/feed/">
+                <img src = "https://cdn.pixabay.com/photo/2015/07/13/07/33/icons-842861__480.png" alt = "linkedin image" height="32" width="32">
+            </a>
+
+            <a href="https://www.instagram.com/">
+                <img src="https://cdn.pixabay.com/photo/2016/08/01/21/00/icon-1562136__480.png" alt="instagram image" height="32" width="32"></a></p>
+    </footer>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
