@@ -1,0 +1,56 @@
+header{
+    font-size: 40px;
+    color: black;
+}
+
+body{
+    background-image: url(https://images.pexels.com/photos/1616516/pexels-photo-1616516.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container{
+    background-color: lightgray;
+    margin: 10px;
+    padding: 15px;
+}
+
+.col-25{
+    float: left;
+    width: 25%;
+}
+
+.col-75{
+    float: left;
+    width: 75%;
+   }
+
+label{
+    font-size: x-large;
+    padding: 12px, 12px,12px, 0;
+}
+
+[type=text], select, [type = email], [type=tel], textarea{
+    width: 90%;
+    padding: 8px;
+    border: 1px, solid, #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+select:hover{
+    background-color: lightblue;
+}
+
+[type=submit], [type=reset]{
+    background-color: green;
+    color: white;
+    padding: 8px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.edutable{
+    float: left;
+}
