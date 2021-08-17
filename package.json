@@ -1,0 +1,24 @@
+{
+  "name": "git-task",
+  "version": "1.0.0",
+  "description": "This is test project ",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajnish-pandey/git-task.git"
+  },
+  "author": "Rajnish and coursera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajnish-pandey/git-task/issues"
+  },
+  "homepage": "https://github.com/rajnish-pandey/git-task#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
